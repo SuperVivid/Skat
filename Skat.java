@@ -37,7 +37,7 @@ public class Skat {
          * TODO: Bei Null spielen mit Hand oder Ouvert gibts einen Bug...
          */
         if (schwarz = true) {
-            schneider = true;               // wer Schwarz ist, sitzt auch im Schneider
+            schneider = true;               // wer schwarz gespielt wurde ist, sitzt auch im Schneider
         }
         if (re = true) {
             kontra = true;                  // Bei Re gabs auch Kontra!
