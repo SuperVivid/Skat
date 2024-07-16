@@ -20,9 +20,9 @@ public class Skat {
             case: "pik"
                 farbwert = 11;
             case: "kreuz"
-                farbwert = 12
+                farbwert = 12:
             case: "grand"
-                farbwert = 24
+                farbwert = 24:
         )
         return farbwert * (bauernFolge + 1);
     }
